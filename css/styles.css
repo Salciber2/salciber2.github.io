@@ -182,8 +182,13 @@ p {
 
 /** UP */
 
+.up {
+    display: none;
+}
+
 @media (min-width: 768px) {
     .up {
+        display: block;
         background-color: cornflowerblue;
         position: fixed;
         right: 1rem;
